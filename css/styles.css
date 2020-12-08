@@ -132,6 +132,21 @@ address {
   color: #757575;
 }
 
+.address-link {
+  display: flex;
+  align-items: center;
+}
+
+.icon-add {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-add:hover,
+.icon-add:focus {
+  fill: var(--hover-color);
+}
+
 .list-address-item:not(:last-child) {
   margin-right: 50px;
 }
