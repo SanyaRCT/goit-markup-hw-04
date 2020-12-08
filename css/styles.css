@@ -138,8 +138,6 @@ address {
 }
 
 .icon-add {
-  width: 15px;
-  height: 11px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -173,6 +171,14 @@ address {
   padding-bottom: 200px;
   max-width: 1600px;
   background: #2f303a;
+
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero/hero-bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-box {
