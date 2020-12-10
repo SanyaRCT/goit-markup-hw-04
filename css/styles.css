@@ -608,7 +608,6 @@ address {
   margin-left: var(--margin-card);
   margin-top: var(--margin-card);
   border: 1px solid #eeeeee;
-  overflow: hidden;
 }
 
 .portfolio-list-item:hover {
@@ -623,7 +622,6 @@ address {
 .port-list-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  border: 1px solid #29b0d9;
 }
 
 .port-content {
