@@ -367,11 +367,10 @@ address {
 .social-links {
   display: flex;
   justify-content: center;
-  margin-left: -10px;
 }
 
-.social-link-item {
-  margin-left: 10px;
+.social-link-item:not(:last-child) {
+  margin-right: 10px;
 }
 
 .social-link {
@@ -612,10 +611,19 @@ address {
   overflow: hidden;
 }
 
-.portfolio-list-item:hover,
-.portfolio-list-item:focus {
+.portfolio-list-item:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.port-list-link {
+  display: block;
+}
+
+.port-list-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  border: 1px solid #29b0d9;
 }
 
 .port-content {
